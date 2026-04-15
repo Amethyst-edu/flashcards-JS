@@ -11,7 +11,7 @@ criar_cartao(
 )
 
 criar_cartao(
-    "futebol",
-    "Qual o campeão da Livbertadores de 2024?",
-    "Botafogo"
+    "Música",
+    "A, a, a",
+    "Staying alive - Bee Gees"
 )

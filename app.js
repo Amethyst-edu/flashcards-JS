@@ -17,3 +17,12 @@ function criar_cartao(categoria, pergunta, resposta){
 
     container.appendChild(cartao)
 }
+
+const add = document.getElementById('add')
+add.addEventListener('click', function(){
+    alert("Você está criando um novo cartão")
+    let title = prompt("Insira a categoria")
+    let front = prompt("Escreva a pergunta do cartão")
+    let back = prompt("Escreava a resposta")
+    criar_cartao(title, front, back)
+})
